@@ -1,25 +1,31 @@
+:root{
+  --black: #161a1d;
+  --white: #e7ecef;
+}
+
+/* GENERAL CSS STYLINGS / RESET  */
+
 body {
   text-align: center;
   margin: 0;
+  background-color: var(--white);
 }
 
+/* MAIN PAGE */
+
 .hero {
-  background-image: url('../public/assets/images/cover.jpg');
-  background-size: cover;
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: opacity(.9);
-}
-
-.title-container {
-  width: 30vw;
-  height: 70vh;
-  background-color: rgba(255, 255, 255, .3);
+  background-image: url('../public/assets/images/cover.jpg');
+  background-size: cover;
+  filter: opacity(.95);
 }
 
 .hero-title {
   margin: 0;
+  color: var(--white);
 }
+
