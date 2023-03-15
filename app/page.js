@@ -3,7 +3,11 @@ import '../styles/globals.css'
 export default function Page() {
   return (
     <>
-      <h1>Hello Next!</h1>
+      <main className="hero">
+        <div className="title-container">
+          {/* <h1 className="hero-title">WELCOME</h1> */}
+        </div>
+      </main>
     </>
   )
 }
