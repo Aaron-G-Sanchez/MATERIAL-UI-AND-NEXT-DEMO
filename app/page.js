@@ -4,11 +4,12 @@ import Nav from '../components/nav'
 export default function Page() {
   return (
     <>
-      <Nav />
-      <main className="hero">
-        <div className="title-container">
-          <h1 className="hero-title">EXPORE</h1>
-        </div>
+      {/* <Nav /> */}
+      <main className="hero-container">
+        <section className="hero">
+          <section className="hero-foreground"></section>
+          <h1 className="hero-title">ELEVATE</h1>
+        </section>
       </main>
     </>
   )
