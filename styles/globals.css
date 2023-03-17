@@ -31,7 +31,8 @@ body {
   height: 100%;
   background-image: url('../public/assets/images/cover.jpg');
   background-size: cover;
-  filter: opacity(.95);
+  position: relative;
+  /* filter: opacity(.95); */
 }
 
 .hero-foreground{
@@ -39,14 +40,17 @@ body {
   height: 100%;
   background-image: url('../public/assets/images/cover-foreground.png');
   background-size: cover;
-  z-index: 2;
   filter: grayscale(100%);
+  position: absolute;
 }
 
 .hero-title {
   margin: 0;
   font-size: 200px;
-  color: var(--black);
+  color: var(--white);
+  position: absolute;
+  top: 25%;
+  left: 25%;
 }
 
 /* MAIN NAV  */

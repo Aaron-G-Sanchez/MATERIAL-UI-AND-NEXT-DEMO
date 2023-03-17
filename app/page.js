@@ -7,8 +7,8 @@ export default function Page() {
       {/* <Nav /> */}
       <main className="hero-container">
         <section className="hero">
-          <section className="hero-foreground"></section>
           <h1 className="hero-title">ELEVATE</h1>
+          <section className="hero-foreground"></section>
         </section>
       </main>
     </>
