@@ -45,11 +45,11 @@ body {
 
 .hero-title {
   margin: 0;
-  font-size: 200px;
+  font-size: 210px;
   color: var(--white);
   position: absolute;
   top: 20%;
-  left: 25%;
+  left: 20%;
 }
 
 /* MAIN NAV  */
