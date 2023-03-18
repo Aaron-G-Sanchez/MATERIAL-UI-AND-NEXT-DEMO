@@ -31,8 +31,6 @@ body {
   height: 100%;
   background-image: url('../public/assets/images/cover.jpg');
   background-size: cover;
-  position: relative;
-  /* filter: opacity(.95); */
 }
 
 .hero-foreground{
@@ -40,8 +38,9 @@ body {
   height: 100%;
   background-image: url('../public/assets/images/cover-foreground.png');
   background-size: cover;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   position: absolute;
+  filter: drop-shadow(10px 10px .95rem rgba(28, 28, 28, .5));
 }
 
 .hero-title {
@@ -49,7 +48,7 @@ body {
   font-size: 200px;
   color: var(--white);
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 25%;
 }
 
