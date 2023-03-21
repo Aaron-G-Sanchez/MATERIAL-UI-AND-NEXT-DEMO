@@ -20,40 +20,26 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.hero {
-  width: 100%;
-  height: 100%;
-  background-image: url('../public/assets/images/cover.jpg');
-  background-size: cover;
-  position: relative;
-  display: flex;
   align-items: flex-start;
   justify-content: center;
-  
+  position: relative;
 }
 
-.hero-foreground{
-  width: 100%;
-  height: 100%;
-  background-image: url('../public/assets/images/cover-foreground.png');
-  background-size: cover;
+.background, .foreground {
   position: absolute;
-  filter: drop-shadow(10px 10px .95rem rgba(28, 28, 28, .3));
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.hero-title {
-  margin: 0;
+.title {
   font-size: 210px;
   color: var(--white);
   position: absolute;
-  margin-top: 9%;
+  margin-top: 3%;
 }
+
+
 
 /* MAIN NAV  */
 
