@@ -3,14 +3,18 @@ import Nav from '../components/nav'
 
 export default function Page() {
   return (
-    <>
+    <main>
       {/* <Nav /> */}
-      <main className="hero-container">
+      <header className="hero-container">
         <section className="hero">
           <h1 className="hero-title">ELEVATE</h1>
           <section className="hero-foreground"></section>
         </section>
-      </main>
-    </>
+      </header>
+
+      <section className="content">
+        <h2>This is the content</h2>
+      </section>
+    </main>
   )
 }
