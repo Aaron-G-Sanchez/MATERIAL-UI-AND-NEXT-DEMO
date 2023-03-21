@@ -4,8 +4,8 @@ import Nav from '../components/nav'
 export default function Page() {
   return (
     <>
-      {/* <Nav /> */}
       <header className="hero-container">
+        {/* <Nav /> */}
         <img
           className="background"
           src="/assets/images/cover.jpg"

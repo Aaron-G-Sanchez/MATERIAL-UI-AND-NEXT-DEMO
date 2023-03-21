@@ -30,24 +30,42 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: top;
+  
+}
+
+.background {
+  z-index: 0;
+}
+
+.foreground {
+  z-index: 2;
 }
 
 .title {
   font-size: 210px;
   color: var(--white);
   position: absolute;
-  margin-top: 3%;
+  margin-top: 9%;
+  position: fixed;
+  z-index: 1;
 }
 
-
-
 /* MAIN NAV  */
+
+nav {
+  z-index: 1;
+}
 
 
 /* CONTENT  */
 
 .content {
+  
   height: 100vh;
+  background-color: var(--white);
+  z-index: 3;
+  position: relative;
 }
 
 
